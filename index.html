@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Travis Test</title>
+  <script src="src/main.js"></script>
+  <script>
+
+    function total(){
+      var val1 = document.getElementById("val1").value;
+      var val2= document.getElementById("val2").value;
+
+      var result = add(+val1, +val2);
+
+      alert(result);
+    }
+
+  </script>
+</head>
+<body>
+	输入一个值： <input type="text" id="val1"/> <br>
+  输入一另个值： <input type="text" id="val2"/><br>
+
+  <button  onclick="total()">总和</button>
+</body>
+</html>
