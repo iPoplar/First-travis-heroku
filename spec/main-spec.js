@@ -130,7 +130,7 @@ describe('unit test',function () {
   });
   describe('buildCartItems', function () {
     it('should print cartItems', function () {
-      var cartItems = buildCartItems(inputs);
+      var cartItems = mainData.buildCartItems(inputs);
       var expectCartItems = [
         {
           input: {barcode: 'ITEM000001', name: '雪碧', unit: '瓶', price: 3.00},
@@ -152,7 +152,7 @@ describe('unit test',function () {
 
   describe('buildReceiptItems', function () {
     it('should print receiptItems', function () {
-      var receiptItems = buildReceiptItems(buildCartItems(inputs));
+      var receiptItems = mainData.buildReceiptItems(mainData.buildCartItems(inputs));
       var expectReceiptItems = [
         {
           cartItem: {barcode: 'ITEM000001', name: '雪碧', unit: '瓶', price: 3.00, count: 5},
@@ -176,7 +176,7 @@ describe('unit test',function () {
 
   describe('buildReceipt', function () {
     it('should print receipt', function () {
-      var receipt = buildReceipt(buildReceiptItems(buildCartItems(inputs)));
+      var receipt = mainData.buildReceipt(mainData.buildReceiptItems(mainData.buildCartItems(inputs)));
       var expectReceipt = {
         receiptItems: [
           {
