@@ -1,3 +1,5 @@
+require('../src/main.js');
+
 describe('intergation test', function() {
   var allItems;
   var inputs;
@@ -41,7 +43,7 @@ describe('intergation test', function() {
         price: 4.50
       }
     ];
-    
+
     inputs = [
       'ITEM000001',
       'ITEM000001',
