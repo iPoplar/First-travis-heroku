@@ -1,22 +1,22 @@
 {
-  "name": "first-travis",
+  "name": "First-travis-heroku",
   "version": "1.0.0",
-  "description": "first travis",
+  "description": "first travis heroku",
   "main": "index.js",
   "scripts": {
-    
+
     "test": "jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iPoplar/First-travis.git"
+    "url": "git+https://github.com/iPoplar/First-travis-heroku.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iPoplar/First-travis/issues"
+    "url": "https://github.com/iPoplar/First-travis-heroku/issues"
   },
-  "homepage": "https://github.com/iPoplar/First-travis#readme",
+  "homepage": "https://github.com/iPoplar/First-travis-heroku#readme",
   "devDependencies": {
     "jasmine": "^2.4.1"
   },
