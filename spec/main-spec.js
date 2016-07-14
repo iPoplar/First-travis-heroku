@@ -1,4 +1,4 @@
-require('../src/main.js');
+var mainData = require('../src/main.js');
 
 describe('intergation test', function() {
   var allItems;
@@ -60,7 +60,7 @@ describe('intergation test', function() {
 
       spyOn(console, 'log');
 
-      printReceipt(inputs);
+      mainData(inputs);
 
       var expectText =
         '***<没钱赚商店>收据***\n' +
