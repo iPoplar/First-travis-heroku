@@ -4,6 +4,7 @@
   "description": "first travis",
   "main": "index.js",
   "scripts": {
+    
     "test": "jasmine"
   },
   "repository": {
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/iPoplar/First-travis#readme",
   "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "dependencies": {
     "jasmine": "^2.4.1"
   }
 }

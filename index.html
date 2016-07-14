@@ -1,26 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Travis Test</title>
-  <script src="src/main.js"></script>
-  <script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>POS v1 </title>
 
-    function total(){
-      var val1 = document.getElementById("val1").value;
-      var val2= document.getElementById("val2").value;
+  <!-- include source files here... -->
+  <script type="text/javascript" src="spec/fixture-spec.js"></script>
+  <script type="text/javascript" src="main/main.js"></script>
 
-      var result = add(+val1, +val2);
+  <!-- include test files here... -->
+  <script type="text/javascript" src="test/main-spec.js"></script>
 
-      alert(result);
-    }
-
-  </script>
 </head>
-<body>
-	输入一个值： <input type="text" id="val1"/> <br>
-  输入一另个值： <input type="text" id="val2"/><br>
 
-  <button  onclick="total()">总和</button>
+<body>
 </body>
 </html>
