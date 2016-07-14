@@ -1,5 +1,5 @@
 {
-  "name": "First-travis-heroku",
+  "name": "first-travis-heroku",
   "version": "1.0.0",
   "description": "first travis heroku",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iPoplar/First-travis-heroku.git"
+    "url": "git+https://github.com/iPoplar/first-travis-heroku.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iPoplar/First-travis-heroku/issues"
+    "url": "https://github.com/iPoplar/first-travis-heroku/issues"
   },
-  "homepage": "https://github.com/iPoplar/First-travis-heroku#readme",
+  "homepage": "https://github.com/iPoplar/first-travis-heroku#readme",
   "devDependencies": {
     "jasmine": "^2.4.1"
   },
