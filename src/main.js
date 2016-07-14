@@ -113,3 +113,8 @@ function isExist(item, cartItems){
   cartItems[cartItems.length] = {input:item,count:1};
   return cartItems;
 }
+module.exports = {printReceipt:printReceipt,
+  buildReceipt:buildReceipt,
+  buildReceiptItems:buildReceiptItems,
+  uildItems:buildItems,
+  buildCartItems:buildCartItems};
