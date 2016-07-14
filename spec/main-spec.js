@@ -60,7 +60,7 @@ describe('intergation test', function() {
 
       spyOn(console, 'log');
 
-      mainData(inputs);
+      mainData.printReceipt(inputs);
 
       var expectText =
         '***<没钱赚商店>收据***\n' +
