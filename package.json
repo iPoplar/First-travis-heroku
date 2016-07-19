@@ -4,7 +4,6 @@
   "description": "first travis heroku",
   "main": "index.js",
   "scripts": {
-
     "test": "jasmine"
   },
   "repository": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/iPoplar/first-travis-heroku#readme",
   "devDependencies": {
+    "express": "^4.14.0",
     "jasmine": "^2.4.1"
   },
   "dependencies": {
